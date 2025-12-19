@@ -1,33 +1,28 @@
 # Compiled class files
 *.class
 
-# Package Files
+# IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Build directories
+bin/
+out/
+target/
+build/
+
+# Log files
+*.log
+
+# Package files
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+# System files
 Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.iml
-
-# Log files
-*.log
-# MacOS system files
-.DS_Store
-
-# Java compiled classes
-*.class
